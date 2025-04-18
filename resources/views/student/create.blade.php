@@ -16,9 +16,10 @@
       <div class="card">
         <div class="card-header">
           Tambah Siswa Siswa
-          <a href="{{ route('student.index') }}" type="button" style="float:right" class="btn btn-danger">
-            <i class="fas fa-arrow-left mr-2"> </i> Kembali
-          </a>
+          <a href="{{ route('student.index') }}" type="button" style="float:right" 
+          class="btn btn-danger"><i class="fas fa-arrow-left mr-2"> </i> Kembali\
+        
+        </a>
         </div>
 
         <form action="/student/add" method="POST">

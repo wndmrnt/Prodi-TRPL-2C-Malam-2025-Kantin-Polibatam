@@ -16,9 +16,8 @@ use App\Http\Controllers\StudentController;
 
 Route::get('/', function () {
 
-    return redirect ('/student');
+    return redirect()->route('student.create');
 });
-
 Route::get('/student', [StudentController::class, 'index'])
     ->name('student.index');
 
@@ -27,5 +26,11 @@ Route::get('/student/add', [StudentController::class, 'create'])
 
 Route::POST('/student/add', [StudentController::class, 'store'])
     ->name('student.store');
+
+Route::get('/student/edit/{id}', [StudentController::class, 'edit'])
+    ->name('student.edit');
+    
+Route::put('/student/edit/{id}', [StudentController::class, 'update'])
+    ->name('student.update');
 
 
