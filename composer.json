@@ -17,12 +17,9 @@
         "laravel/sail": "^1.18",
         "mockery/mockery": "^1.4.4",
         "nunomaduro/collision": "^7.0",
-<<<<<<< HEAD
         "pestphp/pest": "^2.0",
         "pestphp/pest-plugin-laravel": "^2.0",
-=======
         "phpunit/phpunit": "^10.1",
->>>>>>> 9fa111192d88c3967936855f64723c3971dac332
         "spatie/laravel-ignition": "^2.0"
     },
     "autoload": {

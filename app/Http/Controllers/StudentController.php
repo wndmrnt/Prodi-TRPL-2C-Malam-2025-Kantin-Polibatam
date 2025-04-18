@@ -13,7 +13,6 @@ class StudentController extends Controller
     public function index()
     {
 
-        // Memanggil seluruh data dari table Student
 
         $students = Student::all();
     
@@ -25,7 +24,7 @@ class StudentController extends Controller
      */
     public function create()
     {
-     
+    
     }
 
     /**
@@ -33,8 +32,8 @@ class StudentController extends Controller
      */
     public function store(Request $request)
     {
-        //
-    }
+        
+}
 
     /**
      * Display the specified resource.
